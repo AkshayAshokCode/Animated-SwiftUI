@@ -11,6 +11,8 @@
 		C41262402B6010A100E5CF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623F2B6010A100E5CF26 /* ContentView.swift */; };
 		C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262412B6010A200E5CF26 /* Assets.xcassets */; };
 		C41262452B6010A200E5CF26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262442B6010A200E5CF26 /* Preview Assets.xcassets */; };
+		C4D58E562B9CA3E800315135 /* RiveAssets in Resources */ = {isa = PBXBuildFile; fileRef = C4D58E552B9CA3E800315135 /* RiveAssets */; };
+		C4D58E592B9CA4B000315135 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = C4D58E582B9CA4B000315135 /* RiveRuntime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		C412623F2B6010A100E5CF26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C41262412B6010A200E5CF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C41262442B6010A200E5CF26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4D58E552B9CA3E800315135 /* RiveAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RiveAssets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D58E592B9CA4B000315135 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +58,7 @@
 				C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */,
 				C412623F2B6010A100E5CF26 /* ContentView.swift */,
 				C41262412B6010A200E5CF26 /* Assets.xcassets */,
+				C4D58E552B9CA3E800315135 /* RiveAssets */,
 				C41262432B6010A200E5CF26 /* Preview Content */,
 			);
 			path = "Animated-SwiftUI";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = "Animated-SwiftUI";
+			packageProductDependencies = (
+				C4D58E582B9CA4B000315135 /* RiveRuntime */,
+			);
 			productName = "Animated-SwiftUI";
 			productReference = C412623A2B6010A100E5CF26 /* Animated-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = C41262312B6010A100E5CF26;
+			packageReferences = (
+				C4D58E572B9CA4B000315135 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = C412623B2B6010A100E5CF26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +138,7 @@
 			files = (
 				C41262452B6010A200E5CF26 /* Preview Assets.xcassets in Resources */,
 				C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */,
+				C4D58E562B9CA3E800315135 /* RiveAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4D58E572B9CA4B000315135 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4D58E582B9CA4B000315135 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4D58E572B9CA4B000315135 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C41262322B6010A100E5CF26 /* Project object */;
 }
