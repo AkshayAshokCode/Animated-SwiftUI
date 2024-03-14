@@ -11,8 +11,12 @@
 		C41262402B6010A100E5CF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623F2B6010A100E5CF26 /* ContentView.swift */; };
 		C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262412B6010A200E5CF26 /* Assets.xcassets */; };
 		C41262452B6010A200E5CF26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262442B6010A200E5CF26 /* Preview Assets.xcassets */; };
+		C4BFFF542BA2A0E10021B02D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF512BA2A0E10021B02D /* Inter-Regular.ttf */; };
+		C4BFFF552BA2A0E10021B02D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */; };
+		C4BFFF562BA2A0E10021B02D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */; };
 		C4D58E562B9CA3E800315135 /* RiveAssets in Resources */ = {isa = PBXBuildFile; fileRef = C4D58E552B9CA3E800315135 /* RiveAssets */; };
 		C4D58E592B9CA4B000315135 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = C4D58E582B9CA4B000315135 /* RiveRuntime */; };
+		C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +25,12 @@
 		C412623F2B6010A100E5CF26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C41262412B6010A200E5CF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C41262442B6010A200E5CF26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4BFFF512BA2A0E10021B02D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4BFFF572BA2A1060021B02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C4D58E552B9CA3E800315135 /* RiveAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RiveAssets; sourceTree = "<group>"; };
+		C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +64,12 @@
 		C412623C2B6010A100E5CF26 /* Animated-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C4BFFF572BA2A1060021B02D /* Info.plist */,
 				C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */,
 				C412623F2B6010A100E5CF26 /* ContentView.swift */,
+				C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */,
 				C41262412B6010A200E5CF26 /* Assets.xcassets */,
+				C4BFFF502BA2A0E10021B02D /* Fonts */,
 				C4D58E552B9CA3E800315135 /* RiveAssets */,
 				C41262432B6010A200E5CF26 /* Preview Content */,
 			);
@@ -70,6 +82,16 @@
 				C41262442B6010A200E5CF26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4BFFF502BA2A0E10021B02D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4BFFF512BA2A0E10021B02D /* Inter-Regular.ttf */,
+				C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */,
+				C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +158,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BFFF562BA2A0E10021B02D /* Inter-SemiBold.ttf in Resources */,
 				C41262452B6010A200E5CF26 /* Preview Assets.xcassets in Resources */,
 				C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */,
+				C4BFFF552BA2A0E10021B02D /* Poppins-Bold.ttf in Resources */,
+				C4BFFF542BA2A0E10021B02D /* Inter-Regular.ttf in Resources */,
 				C4D58E562B9CA3E800315135 /* RiveAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
 				C41262402B6010A100E5CF26 /* ContentView.swift in Sources */,
 				C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */,
 			);
@@ -287,6 +313,7 @@
 				DEVELOPMENT_TEAM = U2P47YSBTF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animated-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +343,7 @@
 				DEVELOPMENT_TEAM = U2P47YSBTF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animated-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
