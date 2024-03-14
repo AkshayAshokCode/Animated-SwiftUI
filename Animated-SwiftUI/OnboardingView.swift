@@ -14,7 +14,12 @@ struct OnboardingView: View {
         ZStack {
             background
             VStack {
-            
+            Text("Learn design & code")
+                    .font(.custom("Poppins Bold", size: 60, relativeTo: .largeTitle))
+                    .frame(width: 260, alignment: .leading)
+                
+                Text("Description")
+                    .font(.headline)
                 button.view()
                     .frame(width: 236, height: 64)
                     .overlay(
