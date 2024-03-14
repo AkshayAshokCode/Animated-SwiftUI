@@ -19,7 +19,9 @@ struct OnboardingView: View {
                     .frame(width: 260, alignment: .leading)
                 
                 Text("Description")
-                    .font(.headline)
+                    .customFont()
+                
+                
                 button.view()
                     .frame(width: 236, height: 64)
                     .overlay(

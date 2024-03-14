@@ -14,6 +14,7 @@
 		C4BFFF542BA2A0E10021B02D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF512BA2A0E10021B02D /* Inter-Regular.ttf */; };
 		C4BFFF552BA2A0E10021B02D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */; };
 		C4BFFF562BA2A0E10021B02D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */; };
+		C4BFFF592BA2A24A0021B02D /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFFF582BA2A24A0021B02D /* CustomFont.swift */; };
 		C4D58E562B9CA3E800315135 /* RiveAssets in Resources */ = {isa = PBXBuildFile; fileRef = C4D58E552B9CA3E800315135 /* RiveAssets */; };
 		C4D58E592B9CA4B000315135 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = C4D58E582B9CA4B000315135 /* RiveRuntime */; };
 		C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */; };
@@ -29,6 +30,7 @@
 		C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		C4BFFF572BA2A1060021B02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4BFFF582BA2A24A0021B02D /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		C4D58E552B9CA3E800315135 /* RiveAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RiveAssets; sourceTree = "<group>"; };
 		C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				C4BFFF502BA2A0E10021B02D /* Fonts */,
 				C4D58E552B9CA3E800315135 /* RiveAssets */,
 				C41262432B6010A200E5CF26 /* Preview Content */,
+				C4BFFF582BA2A24A0021B02D /* CustomFont.swift */,
 			);
 			path = "Animated-SwiftUI";
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
+				C4BFFF592BA2A24A0021B02D /* CustomFont.swift in Sources */,
 				C41262402B6010A100E5CF26 /* ContentView.swift in Sources */,
 				C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */,
 			);
