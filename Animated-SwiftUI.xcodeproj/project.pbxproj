@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4088B242BA5B4E200055E11 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B202BA5B4E200055E11 /* CustomButton.swift */; };
+		C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B212BA5B4E200055E11 /* Extensions.swift */; };
+		C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B222BA5B4E200055E11 /* CustomTextField.swift */; };
+		C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B232BA5B4E200055E11 /* CustomFont.swift */; };
 		C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */; };
 		C41262402B6010A100E5CF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623F2B6010A100E5CF26 /* ContentView.swift */; };
 		C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262412B6010A200E5CF26 /* Assets.xcassets */; };
@@ -14,13 +18,16 @@
 		C4BFFF542BA2A0E10021B02D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF512BA2A0E10021B02D /* Inter-Regular.ttf */; };
 		C4BFFF552BA2A0E10021B02D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */; };
 		C4BFFF562BA2A0E10021B02D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */; };
-		C4BFFF592BA2A24A0021B02D /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFFF582BA2A24A0021B02D /* CustomFont.swift */; };
 		C4D58E562B9CA3E800315135 /* RiveAssets in Resources */ = {isa = PBXBuildFile; fileRef = C4D58E552B9CA3E800315135 /* RiveAssets */; };
 		C4D58E592B9CA4B000315135 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = C4D58E582B9CA4B000315135 /* RiveRuntime */; };
 		C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4088B202BA5B4E200055E11 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C4088B212BA5B4E200055E11 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4088B222BA5B4E200055E11 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C4088B232BA5B4E200055E11 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		C412623A2B6010A100E5CF26 /* Animated-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C412623F2B6010A100E5CF26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +37,6 @@
 		C4BFFF522BA2A0E10021B02D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		C4BFFF532BA2A0E10021B02D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		C4BFFF572BA2A1060021B02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C4BFFF582BA2A24A0021B02D /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		C4D58E552B9CA3E800315135 /* RiveAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RiveAssets; sourceTree = "<group>"; };
 		C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4088B1F2BA5B4E200055E11 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C4088B202BA5B4E200055E11 /* CustomButton.swift */,
+				C4088B212BA5B4E200055E11 /* Extensions.swift */,
+				C4088B222BA5B4E200055E11 /* CustomTextField.swift */,
+				C4088B232BA5B4E200055E11 /* CustomFont.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		C41262312B6010A100E5CF26 = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +88,10 @@
 				C412623F2B6010A100E5CF26 /* ContentView.swift */,
 				C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */,
 				C41262412B6010A200E5CF26 /* Assets.xcassets */,
+				C4088B1F2BA5B4E200055E11 /* Styles */,
 				C4BFFF502BA2A0E10021B02D /* Fonts */,
 				C4D58E552B9CA3E800315135 /* RiveAssets */,
 				C41262432B6010A200E5CF26 /* Preview Content */,
-				C4BFFF582BA2A24A0021B02D /* CustomFont.swift */,
 			);
 			path = "Animated-SwiftUI";
 			sourceTree = "<group>";
@@ -177,8 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */,
+				C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */,
+				C4088B242BA5B4E200055E11 /* CustomButton.swift in Sources */,
+				C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */,
 				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
-				C4BFFF592BA2A24A0021B02D /* CustomFont.swift in Sources */,
 				C41262402B6010A100E5CF26 /* ContentView.swift in Sources */,
 				C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */,
 			);
