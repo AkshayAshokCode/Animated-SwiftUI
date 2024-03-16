@@ -14,6 +14,8 @@
 		C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B292BA5B60D00055E11 /* CourseSection.swift */; };
 		C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2A2BA5B60D00055E11 /* Course.swift */; };
 		C4088B2F2BA5B69800055E11 /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2E2BA5B69800055E11 /* HouseView.swift */; };
+		C4088B332BA5B73900055E11 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B312BA5B73900055E11 /* VCard.swift */; };
+		C4088B342BA5B73900055E11 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B322BA5B73900055E11 /* HCard.swift */; };
 		C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */; };
 		C41262402B6010A100E5CF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623F2B6010A100E5CF26 /* ContentView.swift */; };
 		C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262412B6010A200E5CF26 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		C4088B292BA5B60D00055E11 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
 		C4088B2A2BA5B60D00055E11 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		C4088B2E2BA5B69800055E11 /* HouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		C4088B312BA5B73900055E11 /* VCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		C4088B322BA5B73900055E11 /* HCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 		C412623A2B6010A100E5CF26 /* Animated-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C412623F2B6010A100E5CF26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		C4088B302BA5B73900055E11 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4088B312BA5B73900055E11 /* VCard.swift */,
+				C4088B322BA5B73900055E11 /* HCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C41262312B6010A100E5CF26 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +123,7 @@
 				C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */,
 				C412623F2B6010A100E5CF26 /* ContentView.swift */,
 				C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */,
+				C4088B302BA5B73900055E11 /* Components */,
 				C4088B2D2BA5B69800055E11 /* Demo */,
 				C41262412B6010A200E5CF26 /* Assets.xcassets */,
 				C4088B282BA5B60D00055E11 /* Model */,
@@ -219,11 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4088B342BA5B73900055E11 /* HCard.swift in Sources */,
 				C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */,
 				C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */,
 				C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */,
 				C4088B242BA5B4E200055E11 /* CustomButton.swift in Sources */,
 				C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */,
+				C4088B332BA5B73900055E11 /* VCard.swift in Sources */,
 				C4088B2F2BA5B69800055E11 /* HouseView.swift in Sources */,
 				C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */,
 				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
