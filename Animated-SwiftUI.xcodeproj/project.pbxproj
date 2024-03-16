@@ -11,6 +11,8 @@
 		C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B212BA5B4E200055E11 /* Extensions.swift */; };
 		C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B222BA5B4E200055E11 /* CustomTextField.swift */; };
 		C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B232BA5B4E200055E11 /* CustomFont.swift */; };
+		C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B292BA5B60D00055E11 /* CourseSection.swift */; };
+		C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2A2BA5B60D00055E11 /* Course.swift */; };
 		C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */; };
 		C41262402B6010A100E5CF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412623F2B6010A100E5CF26 /* ContentView.swift */; };
 		C41262422B6010A200E5CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41262412B6010A200E5CF26 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		C4088B212BA5B4E200055E11 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4088B222BA5B4E200055E11 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		C4088B232BA5B4E200055E11 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		C4088B292BA5B60D00055E11 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		C4088B2A2BA5B60D00055E11 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		C412623A2B6010A100E5CF26 /* Animated-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C412623D2B6010A100E5CF26 /* Animated_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C412623F2B6010A100E5CF26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,15 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
+		C4088B282BA5B60D00055E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4088B292BA5B60D00055E11 /* CourseSection.swift */,
+				C4088B2A2BA5B60D00055E11 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C41262312B6010A100E5CF26 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 				C412623F2B6010A100E5CF26 /* ContentView.swift */,
 				C4D58E5A2B9CA5BC00315135 /* OnboardingView.swift */,
 				C41262412B6010A200E5CF26 /* Assets.xcassets */,
+				C4088B282BA5B60D00055E11 /* Model */,
 				C4088B1F2BA5B4E200055E11 /* Styles */,
 				C4BFFF502BA2A0E10021B02D /* Fonts */,
 				C4D58E552B9CA3E800315135 /* RiveAssets */,
@@ -194,10 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */,
 				C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */,
 				C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */,
 				C4088B242BA5B4E200055E11 /* CustomButton.swift in Sources */,
 				C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */,
+				C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */,
 				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
 				C41262402B6010A100E5CF26 /* ContentView.swift in Sources */,
 				C412623E2B6010A100E5CF26 /* Animated_SwiftUIApp.swift in Sources */,
