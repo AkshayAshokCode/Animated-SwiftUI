@@ -19,7 +19,8 @@ struct OnboardingView: View {
                     .frame(width: 260, alignment: .leading)
                 
                 Text("Description")
-                    .customFont()
+                    .customFont(.body)
+                
                 
                 
                 button.view()
