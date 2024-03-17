@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Animated_SwiftUIApp.swift
 //  Animated-SwiftUI
 //
 //  Created by Akshay Ashok on 23/01/24.
