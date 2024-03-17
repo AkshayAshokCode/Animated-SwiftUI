@@ -1,8 +1,8 @@
 //
-//  CustomTextField.swift
-//  AnimatedApp
+//  Animated_SwiftUIApp.swift
+//  Animated-SwiftUI
 //
-//  Created by Meng To on 2022-04-11.
+//  Created by Akshay Ashok on 23/01/24.
 //
 
 import SwiftUI
