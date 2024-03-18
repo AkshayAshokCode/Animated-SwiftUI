@@ -21,7 +21,7 @@ struct HomeView: View {
     var content: some View {
         VStack(alignment: .leading, spacing: 0) {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Courses")
+                Text("Animations")
                     .customFont(.largeTitle)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }

@@ -65,11 +65,11 @@ struct OnboardingView: View {
     
     var content: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Learn design & code")
+            Text("Rive is fun")
                 .font(.custom("Poppins Bold", size: 60))
                 .frame(width: 260, alignment: .leading)
             
-            Text("Don’t skip design. Learn design and code, by building real apps with React and Swift. Complete courses about the best tools.")
+            Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.")
                 .customFont(.body)
                 .opacity(0.7)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -86,7 +86,7 @@ struct OnboardingView: View {
                         .offset(y: 10)
                 )
                 .overlay(
-                    Label("Start the course", systemImage: "arrow.forward")
+                    Label("Start the Animations", systemImage: "arrow.forward")
                         .offset(x: 4, y: 4)
                         .customFont(.headline)
                         .accentColor(.primary)
@@ -100,7 +100,7 @@ struct OnboardingView: View {
                     }
                 }
             
-            Text("Purchase includes access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates.")
+            Text("Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.")
                 .customFont(.footnote)
                 .opacity(0.7)
         }
