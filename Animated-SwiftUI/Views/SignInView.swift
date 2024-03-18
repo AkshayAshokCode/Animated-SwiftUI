@@ -48,7 +48,7 @@ struct SignInView: View {
         VStack(spacing: 24) {
             Text("Sign in")
                 .customFont(.largeTitle)
-            Text("Access to 240+ hours of content. Learn design and code, by building real apps with React and Swift.")
+            Text("Watch Rive animations")
                 .foregroundColor(.secondary)
             VStack(alignment: .leading) {
                 Text("Email")

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct VCard: View {
-    var course: Course
+    var course: Anime
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

@@ -11,8 +11,8 @@
 		C4088B252BA5B4E200055E11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B212BA5B4E200055E11 /* Extensions.swift */; };
 		C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B222BA5B4E200055E11 /* CustomTextField.swift */; };
 		C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B232BA5B4E200055E11 /* CustomFont.swift */; };
-		C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B292BA5B60D00055E11 /* CourseSection.swift */; };
-		C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2A2BA5B60D00055E11 /* Course.swift */; };
+		C4088B2B2BA5B60D00055E11 /* AnimeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B292BA5B60D00055E11 /* AnimeSection.swift */; };
+		C4088B2C2BA5B60D00055E11 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2A2BA5B60D00055E11 /* Anime.swift */; };
 		C4088B2F2BA5B69800055E11 /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B2E2BA5B69800055E11 /* HouseView.swift */; };
 		C4088B332BA5B73900055E11 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B312BA5B73900055E11 /* VCard.swift */; };
 		C4088B342BA5B73900055E11 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4088B322BA5B73900055E11 /* HCard.swift */; };
@@ -37,8 +37,8 @@
 		C4088B212BA5B4E200055E11 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4088B222BA5B4E200055E11 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		C4088B232BA5B4E200055E11 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
-		C4088B292BA5B60D00055E11 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
-		C4088B2A2BA5B60D00055E11 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C4088B292BA5B60D00055E11 /* AnimeSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeSection.swift; sourceTree = "<group>"; };
+		C4088B2A2BA5B60D00055E11 /* Anime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		C4088B2E2BA5B69800055E11 /* HouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 		C4088B312BA5B73900055E11 /* VCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
 		C4088B322BA5B73900055E11 /* HCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		C4088B282BA5B60D00055E11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C4088B292BA5B60D00055E11 /* CourseSection.swift */,
-				C4088B2A2BA5B60D00055E11 /* Course.swift */,
+				C4088B292BA5B60D00055E11 /* AnimeSection.swift */,
+				C4088B2A2BA5B60D00055E11 /* Anime.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4088B342BA5B73900055E11 /* HCard.swift in Sources */,
-				C4088B2C2BA5B60D00055E11 /* Course.swift in Sources */,
+				C4088B2C2BA5B60D00055E11 /* Anime.swift in Sources */,
 				C4088B272BA5B4E200055E11 /* CustomFont.swift in Sources */,
 				C4088B3D2BA5BCD800055E11 /* HomeView.swift in Sources */,
 				C4088B3A2BA5BB9900055E11 /* SideMenu.swift in Sources */,
@@ -271,7 +271,7 @@
 				C4088B262BA5B4E200055E11 /* CustomTextField.swift in Sources */,
 				C4088B332BA5B73900055E11 /* VCard.swift in Sources */,
 				C4088B2F2BA5B69800055E11 /* HouseView.swift in Sources */,
-				C4088B2B2BA5B60D00055E11 /* CourseSection.swift in Sources */,
+				C4088B2B2BA5B60D00055E11 /* AnimeSection.swift in Sources */,
 				C4088B382BA5BB9300055E11 /* TabBar.swift in Sources */,
 				C4D58E5B2B9CA5BC00315135 /* OnboardingView.swift in Sources */,
 				C41262402B6010A100E5CF26 /* ContentView.swift in Sources */,
@@ -490,8 +490,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rive-app/rive-ios";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 2.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
